@@ -11,4 +11,24 @@ main(){
 	cout<<"===================================="<<endl;
 	cout<<"|Pilih :                           |";
 	cin>>pil;
+	cout<<"===================================="
+	switch(pil){
+		case 1 :
+				 cout<<"bil1  =  ";
+				 cin>>bil1;
+				 cout<<"bil2  =  ";
+				 cin>>bil2;
+				 hasil=bil1+bil2;
+				 cout<<"       ============= +"<<endl;
+				 cout<<"hasil =  "<<hasil;
+				 break;
+		case 2 : 
+				 cout<<"bil1  =  ";
+				 cin>>bil1;
+				 cout<<"bil2  =  ";
+				 cin>>bil2;
+				 hasil=bil1-bil2;
+				 cout<<"       ============= -"<<endl;
+				 cout<<"hasil =  "<<hasil;
+				 break;
 }

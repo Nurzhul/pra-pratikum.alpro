@@ -57,6 +57,6 @@ main(){
 	cout<<"Apakah anda ingin menghitung lagi [Y/N]	: ";
 	cin>>ulang;
 	}
-	while(ulang!='n'||ulang!='N');
+	while(ulang!='n');
 	cout<<"Program Selesai ";
 }
